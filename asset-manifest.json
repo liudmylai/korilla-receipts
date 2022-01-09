@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/korilla-receipts/static/css/main.58feb3af.css",
-    "main.js": "/korilla-receipts/static/js/main.3c49b817.js",
+    "main.js": "/korilla-receipts/static/js/main.e48a6ae4.js",
     "static/media/background.jpg": "/korilla-receipts/static/media/background.0fea84bf7b27aad0d30b.jpg",
     "static/media/receipt_top.png": "/korilla-receipts/static/media/receipt_top.4b4e8f957549befa9783.png",
     "index.html": "/korilla-receipts/index.html",
     "main.58feb3af.css.map": "/korilla-receipts/static/css/main.58feb3af.css.map",
-    "main.3c49b817.js.map": "/korilla-receipts/static/js/main.3c49b817.js.map"
+    "main.e48a6ae4.js.map": "/korilla-receipts/static/js/main.e48a6ae4.js.map"
   },
   "entrypoints": [
     "static/css/main.58feb3af.css",
-    "static/js/main.3c49b817.js"
+    "static/js/main.e48a6ae4.js"
   ]
 }
