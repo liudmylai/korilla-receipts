@@ -4,9 +4,7 @@ function Main(props) {
     const { receipts } = props;
     return (
         <div className="main">
-            {receipts
-                .filter((receipt) => !receipt.paid)
-                .map((receipt, index) => <Receipt receipt={receipt} key={index} />)}
+            {receipts.map((receipt, index) => (!receipt.paid)?<Receipt receipt={receipt} key={index} />:null)}
         </div>
     );
 }
