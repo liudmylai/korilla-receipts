@@ -4,7 +4,11 @@ function Main(props) {
     const { receipts } = props;
     return (
         <div className="main">
-            {receipts.map((receipt, index) => (!receipt.paid)?<Receipt receipt={receipt} key={index} />:null)}
+            {/* Ternary Operator */}
+            {/* {receipts.map((receipt, index) => (!receipt.paid)?<Receipt receipt={receipt} key={index} />:null)} */}
+            {/* AND Operator */}
+            {receipts.map((receipt, index) => !receipt.paid && <Receipt receipt={receipt} key={index} />)}
+
         </div>
     );
 }
